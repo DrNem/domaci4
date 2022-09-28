@@ -1,0 +1,144 @@
+
+/* avatar/general */
+.text-white{
+    color: white;
+    
+}
+.bckgrdn{
+    background-color:#1bbc9b;
+    padding: 30px;
+    width: 100%;
+}
+.avatar{
+    width: 200px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.background-avatar{
+    background-color: #1bbc9b;
+}
+
+.stars{
+    text-align: center;
+    display: inline;
+    letter-spacing: 10px;
+}
+.stars-p{
+    text-align: center;
+    display: inline;
+    letter-spacing: 10px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+    color:#6c757e;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* portfolio */
+.grid-container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 149px 149px;
+    justify-content: center;
+    gap: 10px;
+    justify-items: center;
+    align-content: space-around;
+}
+.grid-item{
+    display: grid;
+    align-content: space-around;
+    border-radius: 7px;
+}
+
+.img{
+    width: 200px;
+    border-radius: 5px;
+}
+.grid-item:hover .img{
+    color: blue;
+    opacity: 0.5;
+}
+
+
+/* modal */
+.modalimage{
+    width: 200px;
+    border-radius: 5px;
+}
+.modal-body-image{
+    width: 100%;
+    border-radius: 5px;
+}
+.modaltitle{
+    display: flex;
+    position: relative;
+    left: 48%;
+}
+.modal-button{
+    display: flex;
+    position: relative;
+    right: 33%;    
+}
+
+/* form */
+
+.form-position{
+    display: grid;
+    justify-items: center;
+}
+.btn-color{
+    background-color: #1bbc9b;
+}
+
+/* media */
+@media screen and (max-width:900px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        max-width: 100%;
+        
+        justify-content: baseline;
+        justify-content: space-evenly;
+    }
+    
+}   
+@media screen and (max-width:500px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        max-width: 100%;
+        
+        justify-content: baseline;
+        justify-content: space-evenly;
+    }
+    
+}   
+/* footer */
+.border-list-img{
+    border: 2px solid white;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 5px;
+}
+.footer-bcg{
+    background-color: #2d3e50;
+}
+
